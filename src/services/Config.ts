@@ -1,7 +1,7 @@
 export namespace Config {
 
     export const cors = {
-        origin : false,
+        origin : true,
         allowHeaders : [
             "Content-Type", 
             "Authorization"
